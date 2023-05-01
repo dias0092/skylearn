@@ -24,6 +24,6 @@ elif answer == 2:
     print("Below you have analysis if you deposit only 1 time at the beginning")
     interest_rate = 5 / 100
     balance = income * (1 + interest_rate)**12
-    print(f"After 1 year, you can have: ${balance:.2f}")
+    print(f"After 1 year, you can have: ${balance}")
 else:
     print("You entered the wrong answer, please try again")
