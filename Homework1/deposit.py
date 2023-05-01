@@ -1,6 +1,6 @@
 print("What deposit do you want?")
 print("1. You have 10% interest every year, and at the end of each year, your interest rate increases by 5%. The currency of this deposit is Tenge ₸.")
-print("2. You get 17% interest every month, but this deposit can only be open for 1 year. The currency of this deposit is Dollar $.")
+print("2. You get 5% interest every month, but this deposit can only be open for 1 year. The currency of this deposit is Dollar $.")
 answer = int(input("Your answer: "))
 
 if answer == 1:
@@ -22,7 +22,8 @@ elif answer == 2:
     print("Your balance for this deposit: $0")
     income = int(input("How much do you want to deposit: $"))
     print("Below you have analysis if you deposit only 1 time at the beginning")
-    incomeAfterYear = income + (income * 17) // 100
-    print(f"After 1 year, you can have: ${incomeAfterYear}")
+    interest_rate = 5 / 100
+    balance = income * (1 + interest_rate)**12
+    print(f"After 1 year, you can have: ${balance:.2f}")
 else:
     print("You entered the wrong answer, please try again")
