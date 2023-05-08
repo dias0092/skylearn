@@ -4,4 +4,4 @@ This repository contains Dias's homework assignments for the SkyLearn Software D
 # Homework Assignments
 - Homework 1: simple Bank deposit system on Python.
 - Homework 2: adding Loop and List for Bank system.
-- Homework 3: ...
+- Homework 3: add to app registration and main balance.
