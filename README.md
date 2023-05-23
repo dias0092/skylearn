@@ -6,3 +6,7 @@ This repository contains Dias's homework assignments for the SkyLearn Software D
 - Homework 2: adding Loop and List for Bank system.
 - Homework 3: add to app registration and main balance.
 - Homework 4: divided function to files , add transfer funtions , add Exeptions.
+- Homework 5: refactoring code , add OOP.
+- Homework 6: Beginning frontend HTML , writes HTML part of banking system.
+- Homework 7: add CSS to frontend.
+- Homewokr 8: add JavaScript to frontend.
