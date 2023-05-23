@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!-- Wrapper -->
+  <div class="wrapper">
+    <!-- Title text -->
+    <div class="title-text">
+      <!-- Login and signup titles -->
+      <div class="title login"> Login Form </div>
+      <div class="title signup"> Signup Form </div>
+    </div>
+    
+    <!-- Form container -->
+    <div class="form-container">
+      <!-- Slide controls for switching between login and signup -->
+      <div class="slide-controls">
+        <input type="radio" name="slide" id="login" checked>
+        <input type="radio" name="slide" id="signup">
+        <label for="login" class="slide login">Login</label>
+        <label for="signup" class="slide signup">Signup</label>
+        <div class="slider-tab"></div>
+      </div>
+
+      <!-- Form inner -->
+      <div class="form-inner">
+        <!-- Login form -->
+        <form class="login"> 
+          <div class="field"> <input type="text" placeholder="Email Address" id="login-email-input" required> </div>
+          <div class="field"> <input type="password" placeholder="Password" id="login-password-input" required> </div>
+          <div class="pass-link"> <a href="#">Forgot password?</a> </div>
+          <div class="field btn"> <div class="btn-layer"></div><input type="submit" value="Login"></div>
+          <div class="signup-link"> Not a member? <a href="">Signup now</a> </div>
+        </form>
+
+        <!-- Signup form -->
+        <form class="signup">
+          <div class="field"><input type="text" id="signup-email-input" placeholder="Email Address" required></div>
+          <div class="field"><input type="password" id="signup-password-input" placeholder="Password" id="password-input" required></div>
+          <div class="field"><input type="password" id="confirm-password-input" placeholder="Confirm password" required></div>
+          <div class="field btn"><div class="btn-layer"></div><input type="submit" value="Signup"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="error-message" class="error-message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
