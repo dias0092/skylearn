@@ -9,4 +9,8 @@ This repository contains Dias's homework assignments for the SkyLearn Software D
 - Homework 5: refactoring code , add OOP.
 - Homework 6: Beginning frontend HTML , writes HTML part of banking system.
 - Homework 7: add CSS to frontend.
-- Homewokr 8: add JavaScript to frontend.
+- Homework 8: add JavaScript to frontend.
+- Homework 9: add mini web app who can connect with country and weather api`s.
+- Homework 10: add OOP to backend.
+- Homework 11: add OOP to backend.
+- Homework 12: add OOP to backend
